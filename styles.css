@@ -1,0 +1,153 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+/* Chatbot Styles */
+.chatbot {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+/* Status Indicator */
+.status-indicator {
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    transition: background-color .3s ease-in-out;
+}
+
+.status-indicator.online {
+    background-color: #28a745; /* Green for online status */
+}
+
+.status-indicator.offline {
+    background-color: #dc3545; /* Red for offline status */
+}
+
+/* Messages Styles */
+.messages {
+  height: 250px;
+  overflow-y: auto;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.message.user {
+    background-color:#bdecb6; 
+    padding:12px; 
+    border-radius:18px; 
+    text-align:left; 
+}
+
+.message.ai {
+    background-color:#ebebeb; 
+    padding:12px; 
+    border-radius:18px; 
+    text-align:left; 
+}
+
+/* Form Styles */
+form {
+    margin-top:20px; 
+}
+
+input[type="text"], input[type="number"], select, textarea {
+    width: calc(100% -40px); 
+    margin-top:10px; 
+    padding:12px; 
+    border-radius:18px; 
+    border:none; 
+    box-shadow: inset -2px -2px rgba(0,0,0,0.05);
+}
+
+button[type="submit"] {
+    width:auto; 
+    padding:12px; 
+    background-color:#5cb85c; 
+    color:white; 
+    border:none; 
+    border-radius:18px; 
+    cursor:pointer; 
+    box-shadow:-2px -2px rgba(0,0,0,0.1);
+    transition: background-color .3s ease-in-out;
+}
+button[type="submit"]:hover {
+    background-color:#4cae4c; 
+}
+
+/* Diagnosis Report Styles */
+.diagnosis-report {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: inset -2px -2px rgba(0,0,0,0.05);
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.report-section h3 {
+  color: #333;
+}
+
+.report-section p,
+.report-section ul {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding:15px;
+}
+
+.report-section ul li {
+   text-align:left;  
+}
+/* Add to your existing styles.css */
+.diagnosis-report {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.report-section {
+  margin-bottom: 20px;
+}
+
+.report-section h2,
+.report-section h3 {
+  color: #333;
+}
+
+.report-section p,
+.report-section ul {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding:15px;
+}
+
+.report-section ul li {
+   text-align:left;  
+}
+
